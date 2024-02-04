@@ -1,0 +1,9 @@
+version: "1"
+services:
+    myapp:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: tutapp
+        ports:
+            - "8090:8090"
