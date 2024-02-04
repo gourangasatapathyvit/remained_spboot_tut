@@ -16,6 +16,8 @@ public class UserService {
 	static {
 		dtos.add(new UserDto(++counter, "polo", LocalDate.now().minusYears(30)));
 		dtos.add(new UserDto(++counter, "qwerty", LocalDate.now().minusYears(20)));
+		  dtos.add(new UserDto(++counter, "4566", LocalDate.now().minusYears(20)));
+		  dtos.add(new UserDto(++counter, "lopez", LocalDate.now().minusYears(20)));
 		dtos.add(new UserDto(++counter, "loki", LocalDate.now().minusYears(10)));
 	}
 
